@@ -1,0 +1,119 @@
+body {
+    background-color: black;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+* {
+    text-align: center;
+    text-decoration: none;
+}
+
+.nav img {
+    width: 30%;
+}
+
+a {
+    text-align: center;
+    display: inline;
+    padding: 5px;
+}
+
+
+.nav {
+    text-align: center;
+}
+
+
+
+.menu{
+    text-align: center;
+    background-color: #666264;
+    color: white;
+    font-size: 15px;
+    padding: 1px;
+    border-radius: 30px;
+}
+.menu a {
+    color: white;
+
+}
+
+.us {
+    background-color: #666264;
+    color: white;
+}
+
+.us a{
+    background-color: #666264;
+    color: white;
+}
+
+.active {
+    background-color: red;
+    padding: 5px;
+    border-radius: 4px;
+
+}
+
+.page .active-page {
+    background-color: red;
+    padding: 5px;
+
+}
+
+
+
+.us p {
+    text-align: center;
+    color: black;
+}
+
+
+
+#down {
+    width: 200px;
+}
+
+.main {
+    color: white;
+    padding: 20px;
+}
+
+.main h1{
+    color: red;
+}
+
+h3 {
+    color: #666264;
+}
+
+.page a{
+    color: white;
+    background-color: #666264;
+    margin: 0px;
+    
+}
+
+.menu  :hover {
+    color: red;
+}
+
+h5 {
+    color: white;
+}
+
+h1 {
+    color: red;
+}
+
+p {
+    color: white;
+}
+
+img {
+width: 300px;    
+}
+
+#icon-fb {
+    width: 50%;
+}
