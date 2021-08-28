@@ -1,0 +1,56 @@
+*{
+       text-decoration: none;
+       text-align: center;
+       
+
+}
+body{
+       background-color: black;
+
+}
+
+
+nav  {
+       background-color: yellow;
+       font-size: 14px;
+       margin: 5px;
+}
+nav a{
+       padding: 10px;
+}
+
+.active{
+       background-color: black;
+       color: white;
+       height: 40px;
+       border-style:double;
+       border-color: dimgrey;
+}
+
+nav :hover{
+       background-color: yellow;
+       color: black;
+       border-style: ridge;
+       border-radius: 4px;
+}
+
+#imgg {
+       position: absolute 10px ;
+       width: 40px;
+       margin: 10px;
+}
+
+.star-img img {
+       width: 40px;
+}
+
+h1 {
+       line-height: 1.8;
+       text-align: center;
+       font-size: 25px;
+       color: red;
+}
+.star-img img {
+       width: 300px;
+}
+

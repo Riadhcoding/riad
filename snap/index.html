@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html >
+<head>
+       <link rel="icon" type="image/gif/png" href="/image/add.png">
+       <meta content='#FFFC00' name='theme-color'/>
+       <meta content='#FFFC00' name='msapplication-navbutton-color'/>
+       <link rel="stylesheet" href="/sytle/style.css">
+       <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Home</title>
+      <style type="text/css" media="all">
+
+       *{
+       padding: 0;
+       margin: 0;
+       box-sizing: border-box;
+       
+       }
+       body{
+       width: 100%;
+       height: 100vh;
+       background: #000;
+       
+       }
+       span{
+       width: 100%;
+       color: #42445A91;
+       position: absolute;
+       font-weight: bold;
+       font-size: 50px;
+       
+       
+       }
+       .container{
+       position: relative;
+       top: 20%;
+       left: 18%;
+       transform: translate(-50%,-50%);
+       width:200px;
+       height: 200px;
+       
+       }
+       
+       span:after{
+       content: attr(data-att);
+       position: absolute;
+       color: #FFFC00;
+       top: 0;
+       left: 0;
+       overflow: hidden;
+       border-right: 2px solid #83D749;
+       width:0px;
+       animation: animate 3s linear infinite
+       
+       }
+       @keyframes animate {
+              0%,100%{
+                     width : 0
+              }
+              60%,80%{
+                     width : 270px    
+              }
+
+
+       }
+</style>
+</head>
+<body>
+
+<a href="https://www.snapchat.com/add/python_l2021">  <img src="/image/add.png" alt="image not found ! "/></a>
+<nav>
+
+
+       <a href="index.html" class="active">الخدمات</a>
+       <a href="star.html" >توثيق</a>
+       <a href="donate.html" >تبرع للموقع</a>
+       <a href="trick.html" >حيل سناب</a>
+       <a href="us.html" >اتصل بنا</a>
+
+</nav>
+
+<div class="container">
+       <span id='txt' data-att="SnapChat">SnapChat</span>
+</div>
+   
+ <div class="img">
+
+   <h1 > اول موقع عربي لتزويد متابعي سناب شات</h1><br><br>
+<img src="/image/1.png" alt="image not found ! "/>
+
+ </div> 
+<br><br><br><br>
+<SCRIPT>
+       function ShowAndHide() {
+           var x = document.getElementById('SectionName');
+           if (x.style.display == 'none') {
+               x.style.display = 'block';
+           } else {
+               x.style.display = 'none';
+           }
+       }
+       </SCRIPT>
+
+<BUTTON ONCLICK="ShowAndHide()">تسجيل</BUTTON><br><br>
+<DIV ID="SectionName" STYLE="display:none"><h4 style="color: red;">يرجى اختيار الجنس </h4><br>
+       <input type="radio" id="male" name="gender" value="male">
+<label for="male">رجل</label><br>
+<input type="radio" id="female" name="gender" value="female">
+<label for="female">امراة</label><br><br>
+<h4 style="color: red;">يرجى اختيار عدد المتابعين الذي تريد تزويدها </h4><br>
+
+<script>
+       function updateTextInput(val) {
+          document.getElementById('textInput').value=val; 
+        }
+</script>
+<input type="range" name="rangeInput" value="0" min="0" max="1000" onchange="updateTextInput(this.value);">
+<br>
+<input type="text" id="textInput" value=""><br>
+<br>
+<br><br><h4 style="color: white; text-align: center;">بعد تحديد الجنس و عدد الزيادة سجل الدخول و استقبل اول دفعات زيادة </h4>
+
+<br><br><a id='login' href="login.html"> تسجيل الدخول</a>
+
+</DIV>
+
+
+
+
+</body>
+</html>

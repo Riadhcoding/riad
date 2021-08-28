@@ -1,0 +1,46 @@
+*{
+       text-decoration: none;
+       text-align: center;
+       
+
+}
+body{
+       background-color: black;
+
+}
+
+
+nav  {
+       background-color: yellow;
+       font-size: 14px;
+       margin: 5px;
+}
+nav a{
+       padding: 10px;
+}
+
+.active{
+       background-color: black;
+       color: white;
+       height: 40px;
+       border-style:double;
+       border-color: dimgrey;
+}
+
+nav :hover{
+       background-color: yellow;
+       color: black;
+       border-style: ridge;
+       border-radius: 4px;
+}
+
+img {
+       position: absolute 10px ;
+       width: 40px;
+       margin: 10px;
+}
+
+h1 {
+       color: red;
+       line-height: 1.8;
+}

@@ -1,0 +1,144 @@
+*{
+       text-decoration: none;
+       text-align: center;
+       
+
+}
+body{
+       background-color: black;
+}
+
+
+
+img {
+       position: absolute 10px ;
+       width: 40px;
+       margin: 10px;
+}
+nav  {
+       background-color: yellow;
+       font-size: 14px;
+       margin: 5px;
+}
+nav a{
+       padding: 10px;
+}
+
+.active{
+       background-color: black;
+       color: white;
+       height: 40px;
+       border-style:double;
+       border-color: dimgrey;
+       
+
+}
+.img img {
+       width: 250px;
+}
+
+.img h1 {
+       font-size: 25px;
+       color: yellow;
+       
+}
+
+nav :hover{
+       background-color: yellow;
+       color: black;
+       border-style: ridge;
+       border-radius: 4px;
+}
+
+h1 {
+       font-size: 25px;
+       color: yellow;
+       
+}
+
+
+
+summary {
+       border-style: solid;
+       
+}
+
+#SectionName {
+       color: white;
+}
+
+BUTTON {
+       font-size: 25px;
+       color: black;
+       background-color: yellow;
+       padding: 10px;
+       border-radius: 10px;
+}
+
+#login {
+       font-size: 26px;
+       border-style: solid;
+       padding: 15px;
+       color: black;
+       background-color: yellow;
+       border-radius: 10px;
+       border-color: white;
+}
+
+input {
+       color: red;
+       font-size: 25px;
+       width: 200px;
+}
+
+.star h1 {
+       position: absolute;
+       top: 400px;
+       text-align: center;
+       font-size: 20px;
+       border-style: groove;
+       padding: 10px;
+       text-align: center;
+       border-color: red;
+
+
+}
+.star-img  {
+       position: absolute;
+       top: 500px;
+       left: 10%;
+       width: 400px;
+       border-radius: 10px;
+}
+.star-img img {
+       width: 700px;
+       text-align: center;
+}
+.info a {
+       background-color: black;
+       color: yellow;
+       height: 40px;
+       border-style:double;
+       border-color: white;
+       font-size: 25px;
+       padding: 20px;
+       line-height: 4;
+
+}
+.info :hover{
+       background-color: black;
+       color: white;
+       border-style: solid;
+       border-color: red;
+       border-radius: 8px;
+       
+
+}
+
+service h1 {
+       background-color: yellow;
+       color: black;
+       padding: 10px;
+       margin: 20px;
+}
+
